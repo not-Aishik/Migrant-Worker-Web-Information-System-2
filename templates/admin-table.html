@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">{{ property1 }}</th>
+      <th scope="col">{{ property2 }}</th>
+      <th scope="col">{{ property3 }}</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%for i in range(0, length)%}
+      <tr>
+          <th scope="row">{{i + 1}}</th>  
+          <td>{{ col1data[i] }}</td>
+          <td>{{ property2 }}</td>
+          <td>{{ col2data[i] }}</td>
+      </tr>
+  {%endfor%}
+  </tbody>
+</table>
+{% endblock %}

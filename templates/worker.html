@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<br>
+<h2>Welcome to the Worker section</h2>
+
+<form action="/worker-display/" method="post">
+    <button class="btn btn-primary" type="submit">Display my data</button>
+</form>
+<br>
+<form action="/worker-changeLocation/" method="post">
+    <button class="btn btn-primary" type="submit">Change my location</button>
+</form>
+
+{% endblock %}

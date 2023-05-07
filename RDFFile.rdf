@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21/"
+     xml:base="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-21="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#currentLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#currentLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#homeLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#homeLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#worksFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#worksFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Average-Wage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Average-Wage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Blood_Group -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Blood_Group">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#City -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#City">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Phone-Number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Phone-Number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Sector -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Sector">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#State -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#State">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Street_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Street_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+        <untitled-ontology-21:worksFor rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation2"/>
+        <untitled-ontology-21:City>City1</untitled-ontology-21:City>
+        <untitled-ontology-21:State>State1</untitled-ontology-21:State>
+        <untitled-ontology-21:Street_Name>Street1</untitled-ontology-21:Street_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location"/>
+        <untitled-ontology-21:City>City2</untitled-ontology-21:City>
+        <untitled-ontology-21:State>State2</untitled-ontology-21:State>
+        <untitled-ontology-21:Street_Name>Street2</untitled-ontology-21:Street_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#MigrantWorker1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#MigrantWorker1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <untitled-ontology-21:currentLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location1"/>
+        <untitled-ontology-21:homeLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location2"/>
+        <untitled-ontology-21:worksFor rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation1"/>
+        <untitled-ontology-21:Blood_Group>B+</untitled-ontology-21:Blood_Group>
+        <untitled-ontology-21:Name>WorkerName1</untitled-ontology-21:Name>
+        <untitled-ontology-21:Phone-Number rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12345</untitled-ontology-21:Phone-Number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#MigrantWorker2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#MigrantWorker2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Migrant-Worker"/>
+        <untitled-ontology-21:currentLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location2"/>
+        <untitled-ontology-21:homeLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location1"/>
+        <untitled-ontology-21:Blood_Group>A+</untitled-ontology-21:Blood_Group>
+        <untitled-ontology-21:Name>Name2</untitled-ontology-21:Name>
+        <untitled-ontology-21:Phone-Number>41223</untitled-ontology-21:Phone-Number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+        <untitled-ontology-21:currentLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location1"/>
+        <untitled-ontology-21:Average-Wage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1234</untitled-ontology-21:Average-Wage>
+        <untitled-ontology-21:Name>OrgName1</untitled-ontology-21:Name>
+        <untitled-ontology-21:Sector>Sector1</untitled-ontology-21:Sector>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Organisation"/>
+        <untitled-ontology-21:currentLocation rdf:resource="http://www.semanticweb.org/win11/ontologies/2023/4/untitled-ontology-21#Location2"/>
+        <untitled-ontology-21:Average-Wage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7434</untitled-ontology-21:Average-Wage>
+        <untitled-ontology-21:Name>OrgName2</untitled-ontology-21:Name>
+        <untitled-ontology-21:Sector>Sector2</untitled-ontology-21:Sector>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

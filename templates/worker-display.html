@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<br>
+<div class="jumbotron jumbotron-fluid">
+    <h1>Displaying your data</h1>
+    <hr>
+    <p>Name: {{ name }}</p>
+    <p>Phone Number: {{ phone }}</p>
+    <p>Blood Group: {{ blood_group }}</p>
+    <hr>
+    <p>Current Location is {{ current_location }}</p>
+    <p>Home Location is {{ home_location }}</p>
+    <p>Organisation which employs you is{{ organisation }}</p>
+</div>
+    
+{% endblock %}

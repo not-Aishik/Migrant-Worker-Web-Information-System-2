@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+<h3>ADMIN SECTION</h3>
+<form action="/admin-table/" method="post">
+    <button class="btn btn-primary" type="submit" name="submit_button" value="current location">Show current locations</button>
+</form>
+<br>
+<form action="/admin-table/" method="post">
+    <button class="btn btn-primary" type="submit" name="submit_button" value="home location">Show home locations</button>
+</form>
+<br>
+<form action="/admin-table/" method="post">
+    <button class="btn btn-primary" type="submit" name="submit_button" value="organisation">Show current employer and migrant worker relationships</button>
+</form>
+</div>
+
+{% endblock %}
